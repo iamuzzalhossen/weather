@@ -1,0 +1,62 @@
+/* For smaller sized devices */
+@media (min-width: 320px){
+    body{
+        padding: 10px;
+    }
+    .container {
+        width: 100%;
+    }
+    .weatherApp {
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .search input {
+        width: 188px;
+        font-size: 18px;
+    }
+    .weatherImage {
+        width: 85px;
+    }
+    .weather h1 {
+        font-size: 45px;
+    }
+    .weather h2 {
+        font-size: 25px;
+    }
+    .col h4 {
+        font-size: 22px;
+    }
+    .col img {
+        width: 30px;
+        margin-right: 10px;
+    }
+}
+
+/* For medium to larger sized devices */
+@media (min-width: 430px){
+    .container {
+        width: 420px;
+    }
+    .weatherApp {
+        padding: 40px;
+    }
+    .search input {
+        font-size: 20px;
+    }
+    .weatherImage{
+        width: 130px;
+    }
+    .weather h1 {
+        font-size: 55px;
+    }
+    .weather h2 {
+        font-size: 35px;
+    }
+    .col h4 {
+        font-size: 25px;
+    }
+    .col img {
+        width: 35px;
+        margin-right: 10px;
+    }
+}
